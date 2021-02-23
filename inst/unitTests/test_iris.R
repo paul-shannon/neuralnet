@@ -216,3 +216,5 @@ test_predictAllSpecies <- function()
 
 } # test_predictAllSpecies
 #------------------------------------------------------------------------------------------------------------------------
+if(!interactive())
+   runTests()
